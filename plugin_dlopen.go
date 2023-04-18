@@ -3,7 +3,7 @@
 package nexp_plugin
 
 /*
-#cgo linux LDFLAGS: -ldl
+#cgo linux LDFLAGS: -lpthread
 #include <dlfcn.h>
 #include <limits.h>
 #include <stdlib.h>
